@@ -16,3 +16,5 @@ def changes_letter_case_2(text):
     :return:
     """
     return ' '.join(map(lambda x: x.capitalize(), text.split(' ')))
+
+print(changes_letter_case_2("hello skypro"))
